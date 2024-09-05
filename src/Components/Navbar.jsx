@@ -20,7 +20,7 @@ function TopNavbar({ cartCount }) {
           <Nav.Link>
           <ShoppingCartIcon className='text-light' />
           </Nav.Link>
-          <Link to="/"> <Button><LogoutIcon fontSize='small' /> Signout </Button></Link>
+          <Link to="/HelloDoctor-reactapp"> <Button><LogoutIcon fontSize='small' /> Signout </Button></Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
