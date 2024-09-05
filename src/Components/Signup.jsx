@@ -50,7 +50,7 @@ function Signup() {
                             <label className="form-label mb-0">Confirm Password:</label>
                             <input type="password" className="form-control" placeholder="Confirm your password"/>
                         </div>
-                        <Link to="/HelloDoctor-reactapp"> <button type="submit" className="btn btn-primary w-100">Sign Up</button></Link>
+                        <Link to="/HelloDoctor-reactapp"> <button type="submit" className="btn btn-primary w-100">Sign Up!</button></Link>
                     </form>
                 </div>
             </div>
