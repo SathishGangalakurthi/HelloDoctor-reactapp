@@ -24,7 +24,7 @@ function Signup() {
             <div className="col-md-4 d-flex justify-content-center align-items-center formbg">
               
                 <div className="signup-form w-75">
-                <Link to="/"><button className="backtologin rounded px-3 py-1 mb-3 border-2 "><FirstPageIcon fontSize="medium"  /></button></Link>
+                <Link to="/HelloDoctor-reactapp"><button className="backtologin rounded px-3 py-1 mb-3 border-2 "><FirstPageIcon fontSize="medium"  /></button></Link>
                     <div >   
                     <h3 className="text-center my-2"> Create an Account</h3>
                     </div>
@@ -50,7 +50,7 @@ function Signup() {
                             <label className="form-label mb-0">Confirm Password:</label>
                             <input type="password" className="form-control" placeholder="Confirm your password"/>
                         </div>
-                        <Link to="/"> <button type="submit" className="btn btn-primary w-100">Sign Up</button></Link>
+                        <Link to="/HelloDoctor-reactapp"> <button type="submit" className="btn btn-primary w-100">Sign Up</button></Link>
                     </form>
                 </div>
             </div>
