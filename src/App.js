@@ -11,7 +11,6 @@ import Booktest from './Components/Booktest';
 import Forgot from './Components/Forgot';
 import Doctorslist from './Components/Doctorslist';
 import DoctorProfile from './Components/DoctorProfile';
-
 import TopNavbar from './Components/Navbar';
 
 function App() {
