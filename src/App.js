@@ -21,7 +21,7 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Login />} />
+          <Route path="/HelloDoctor-reactapp" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/header" element={<Header />} />
