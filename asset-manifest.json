@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/hello-doctor-react/static/css/main.ad9403ac.css",
+    "main.js": "/hello-doctor-react/static/js/main.edf13f4b.js",
+    "static/js/453.6fd4493f.chunk.js": "/hello-doctor-react/static/js/453.6fd4493f.chunk.js",
+    "static/media/forgotimage.jpg": "/hello-doctor-react/static/media/forgotimage.2bd123a89927e9de8e9d.jpg",
+    "static/media/loginimage.jpg": "/hello-doctor-react/static/media/loginimage.e117958aecf9c5dc4ff8.jpg",
+    "static/media/Doctorimage-10.jpg": "/hello-doctor-react/static/media/Doctorimage-10.feda5e04d8bd80603d2a.jpg",
+    "static/media/Doctorimage-7.jpg": "/hello-doctor-react/static/media/Doctorimage-7.8f7f08657583d97d2fed.jpg",
+    "static/media/Doctorimage-16.jpg": "/hello-doctor-react/static/media/Doctorimage-16.0cbe3037977ec6cf3bbb.jpg",
+    "static/media/Doctorimage-2.jpg": "/hello-doctor-react/static/media/Doctorimage-2.8a66c133b71e844dd93b.jpg",
+    "static/media/Doctorimage-6.jpg": "/hello-doctor-react/static/media/Doctorimage-6.3b1f06e21f722a074a6c.jpg",
+    "static/media/Doctorimage-14.jpg": "/hello-doctor-react/static/media/Doctorimage-14.eea8e827cbef203650b0.jpg",
+    "static/media/Doctorimage-17.jpg": "/hello-doctor-react/static/media/Doctorimage-17.2987d20fac98ce2a775b.jpg",
+    "static/media/Doctorimage-3.jpg": "/hello-doctor-react/static/media/Doctorimage-3.2228018edd20cffa9644.jpg",
+    "static/media/Doctorimage-12.jpg": "/hello-doctor-react/static/media/Doctorimage-12.d4caa4984a56f300565e.jpg",
+    "static/media/Doctorimage-1.jpg": "/hello-doctor-react/static/media/Doctorimage-1.1c27243ba3b1da25f494.jpg",
+    "static/media/Doctorimage-18.jpg": "/hello-doctor-react/static/media/Doctorimage-18.989406833b6f170a5169.jpg",
+    "static/media/Doctorimage-5.jpg": "/hello-doctor-react/static/media/Doctorimage-5.0dbe971afc4fd576a058.jpg",
+    "static/media/Doctorimage-4.jpg": "/hello-doctor-react/static/media/Doctorimage-4.50b5ed263644ff713165.jpg",
+    "static/media/Doctorimage-8.jpg": "/hello-doctor-react/static/media/Doctorimage-8.0627f450a8d291512814.jpg",
+    "static/media/Doctorimage-11.jpg": "/hello-doctor-react/static/media/Doctorimage-11.5e1699f48597bc622396.jpg",
+    "static/media/Doctorimage-15.jpg": "/hello-doctor-react/static/media/Doctorimage-15.824a861e94f2ac6c334c.jpg",
+    "static/media/Doctorimage-9.jpg": "/hello-doctor-react/static/media/Doctorimage-9.62814d3791301b8fd5a3.jpg",
+    "static/media/Doctorimage-13.jpg": "/hello-doctor-react/static/media/Doctorimage-13.bd3be67710a65e56f6b7.jpg",
+    "static/media/Hello Doctor Logo-02.png": "/hello-doctor-react/static/media/Hello Doctor Logo-02.3f5d9c6a2e57c74a586c.png",
+    "static/media/singupimage.jpg": "/hello-doctor-react/static/media/singupimage.8e360609be0a87c58f61.jpg",
+    "static/media/welcomeimage.jpg": "/hello-doctor-react/static/media/welcomeimage.eabc740590e1f09aa0fc.jpg",
+    "index.html": "/hello-doctor-react/index.html",
+    "main.ad9403ac.css.map": "/hello-doctor-react/static/css/main.ad9403ac.css.map",
+    "main.edf13f4b.js.map": "/hello-doctor-react/static/js/main.edf13f4b.js.map",
+    "453.6fd4493f.chunk.js.map": "/hello-doctor-react/static/js/453.6fd4493f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad9403ac.css",
+    "static/js/main.edf13f4b.js"
+  ]
+}
