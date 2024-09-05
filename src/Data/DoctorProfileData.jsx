@@ -1,4 +1,4 @@
-export const DoctorDetails= [{
+export const DoctorDetails= [
     {
       "id": 1,
       "name": "Dr. Rajesh Kumar",
@@ -269,5 +269,5 @@ export const DoctorDetails= [{
       ],
       "paragraph": "Dr. Pratiksha Rao specializes in the treatment of rheumatic diseases, offering advanced therapies and comprehensive care for chronic conditions. Her approach combines clinical expertise with patient-focused care."
     }
-}
+
 ]
