@@ -1,0 +1,390 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Signup & Login Page */
+
+.backtologin {
+  color: #ffffff;
+  background-color: #229799;
+  border-radius: 10px;
+} 
+  
+.formbg {
+  background-color: #229799;
+}
+  
+.signup-form, .login-form { 
+  color: #fff;
+  font-family: "DM Sans", sans-serif;  
+}
+  
+.signup-form h3, .login-form h3 {
+  font-weight: 700;
+  color: #ffffff;
+}
+  
+.form-text {
+  color: #48CFCB;
+}
+  
+.signup-form button, .login-form button, .TopNavbar button{
+  background-color: #48CFCB;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;  
+}
+  
+.signup-form button:hover, .login-form button:hover, .TopNavbar button:hover {
+  background-color: #fff;
+  color: #424242;
+}
+  
+/* remove Link underline & adding color */
+
+.signuplink, .forgotlink {
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+}
+
+.signuplink:hover, .forgotlink:hover {
+  color: #000000;
+}
+
+/* Navbar */
+
+.TopNavbar {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.topnavbar {
+  background-color: #229799;
+}
+
+/* Header Section */
+.sticky-header {
+  position: fixed;
+  left: 0;
+  margin-top: 5%;
+  height: 100vh;
+  background: #F5F5F5;
+  box-shadow: 2px 5px 5px 0 rgba(0, 0, 0, 0.1);
+  z-index: 9;
+}
+
+
+
+/* Dashboard Section */
+
+.welcome-card-body {
+  background-image: url("./Components/Assets/welcomeimage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 160px;
+  border-radius: 20px;
+  padding: 30px;
+  align-content: center; 
+  border: 2px solid #dddddd;
+}
+
+.welcome-card-body .Heading {
+  color: #229799;
+}
+
+.welcome-card-body button {
+  background-color: transparent;
+  border: none;
+  font-weight: 500;
+  border-radius: 8px;
+  color: #229799;
+  font-size: 14px;
+  border: 2px solid #229799;
+}
+
+.welcome-card-body button:hover {
+  background-color:#229799;
+  color: #ffffff;
+  border: 2px solid #229799;
+}
+
+.dashboardcard1 {
+  background-color: #007896;
+  color: #ffffff;
+  border: none;
+  padding: 2%;
+  border-radius: 20px;
+  border: 2px solid #0192b7;
+  transition: transform 0.3s ease-in-out;
+}
+
+.dashboardcard2 {
+  background-color: #00964b;
+  color: #ffffff;
+  border: none;
+  padding: 2%;
+  border-radius: 20px;
+  border: 2px solid #00bc5e;
+  transition: transform 0.3s ease-in-out;
+}
+
+.dashboardcard3 {
+  background-color: #6f3088;
+  color: #ffffff;
+  border: none;
+  padding: 2%;
+  border-radius: 20px;
+  border: 2px solid #9337b8;
+  transition: transform 0.3s ease-in-out;
+}
+
+.dashboardcard1:hover, .dashboardcard2:hover, .dashboardcard3:hover  {
+  transform: scale(1.02);
+}
+
+/* Appointment Schedule module */
+
+.Schedule-module {
+  border: #007896 solid 2px;
+  border-radius: 20px;
+  background-color: #229799;
+  color: #fff;
+  height: 100%;
+}
+
+.Schedule-module .checkuptype{
+  font-size: 14px;
+  text-align: center;
+  padding: 2px 0 ;
+  border-radius: 18px;
+  margin: 0 40px;
+  background-color: #007896;
+}
+
+.Schedule-module p {
+  font-size: 12px;
+}
+
+.doc-image {
+  height: 80px;
+  border-radius: 18px;
+}
+
+.Schedule-module button {
+  background-color: transparent;
+  border: none;
+  font-weight: 500;
+  border-radius: 8px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  font-size: 14px;
+  float: right;
+  padding: 12px;
+}
+
+.Schedule-module button:hover {
+  background-color: #48CFCB;
+  color: #ffffff;
+  border: 2px solid #48CFCB;  
+}
+
+.dashboardblock3, .dashboardblock4 {
+  background-color: #f1f1f1;
+  color: #fff;
+  border-radius: 18px;
+  border: 2px solid #dddddd;
+  text-align: center;
+}
+
+/* Doctor Card Images */
+
+.content {
+  margin-top: 5%;
+  padding: 2%;
+
+}
+
+.maincard {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 4%;
+}
+
+.doctorcard {
+  background-color: #F5F5F5;
+  border: none;
+  border-radius: 10px;
+  height: auto;
+  width: 250px;
+  padding: 10px;
+
+}
+
+.doctorcard:hover {
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 1, 1, 0.388);
+  transform: scale(1.02);
+}
+
+.doctorcard img {
+  height: auto;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.doctorcard button {
+  background-color: #229799;
+  border: none;
+  border-radius: 10px;
+  padding:8px  10px;
+  font-size: 14px;
+}
+
+.doctorcard button:hover {
+  background-color: #48CFCB;
+  color: #ffffff;
+}
+
+.feetext {
+  font-size: 14px;
+}
+
+/* Book a Test component */
+
+.labtestcard {
+  background-color: #F5F5F5;
+  border-radius: 20px;
+  color: #424242; 
+  border: 1px solid #f5f5f5;
+  font-size: 14px;
+}
+
+.labtestcard:hover {
+  background-color: #ffffff;
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+  box-shadow: 2px 0 8px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid #e1e0e0;
+}
+
+.test-list-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.testdetails {
+  background-color: #f5f5f5;
+  color:#424242;
+}
+
+.testcard-icon {
+  color: #229799;
+}
+
+.smalltext p {
+  font-size: 14px;
+}
+
+.labtestpricebutton .addbutton{
+  background-color: transparent;
+  border: none;
+  font-weight: 500;
+  border-radius: 8px;
+  color: #48CFCB;
+  border: 2px solid #229799;
+}
+
+.labtestpricebutton .addbutton:hover{
+  background-color:#229799;
+  color: #ffffff;
+  box-shadow: 4px 4px #F5F5F5;
+  border: 2px solid #229799;
+}
+
+.labtestpricebutton .removebutton{
+  background-color: transparent;
+  border: none;
+  font-weight: 500;
+  border-radius: 8px;
+  color: #48CFCB;
+  border: 2px solid #229799;
+}
+
+.labtestpricebutton .removebutton:hover{
+  background-color:#be0707;
+  color: #ffffff;
+  box-shadow: 4px 4px #F5F5F5;
+  border: 2px solid #be0707;
+}
+
+.testtabs .list-group-item:hover {
+  background-color: #48CFCB;
+  color: #fff;
+  box-shadow: 0 2px 6px rgba(28, 61, 38, 0.652);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.booktest-menubar  {
+  position: fixed;
+  right: 0;
+  text-align: center;
+  padding-top: 100px;
+  height: 100vh;
+  background: #F5F5F5;
+  box-shadow: 2px 5px 5px 0 rgba(0, 0, 0, 0.1);
+  z-index: 9;
+}
+
+.scrollable-list {
+  height: 80vh; /* Fixed height for the scrolling area */
+  border: 1px solid #ddd; /* Optional: Add a border */
+  border-radius: 10px 0 0 10px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+}
+
+.scrollable-list ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0 10% 10% 10%;
+}
+
+.scrollable-list li {
+  margin-bottom: 8px;
+  background-color: #ffffff; /* Optional: Background for list items */
+  border-radius: 4px; /* Optional: Rounded corners */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Optional: Slight shadow */
+}
+
+.list-group-item {
+  color: #023e14;
+  font-weight: 600;
+  margin-bottom: 3%;
+}
+
+.list-group-item:hover {
+  background-color: #F5F5F5;
+}
+
+.doctordetails button {
+  background-color: #229799;
+border: none;
+border-radius: 10px;
+padding:10px  16px;
+font-size: 14px;
+font-size: 16px;
+color: #ffffff;
+
+}
+
+.doctordetails button:hover {
+background-color: #48CFCB;
+color: #ffffff;
+}
